@@ -1,4 +1,8 @@
-@media (max-width: 480px) {
+/* large desktop */
+@media (min-width: 1368px) {
+}
+/* Tab view */
+@media (max-width: 991px) {
   h3,
   h4,
   h5,
@@ -26,7 +30,9 @@
     padding-right: 90px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     margin-top: 15px;
+    text-align: center;
   }
   .nav-link {
     font-size: 18px;
@@ -67,6 +73,7 @@
   }
   .banner-time {
     padding-left: 0px;
+    text-align: center;
   }
   .main-menu-card-img {
     display: none;
@@ -111,12 +118,9 @@
     flex-wrap: wrap;
   }
 }
-/* large desktop */
-/* @media (min-width: 1368px) {
+/* @media (max-width: 768px) {
 } */
-/* Tab view */
-/* @media (max-width: 991px) {
-}
-@media (max-width: 768px) {
-} */
+
 /* Moblie view */
+/* @media (max-width: 480px) {
+} */
