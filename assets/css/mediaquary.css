@@ -1,6 +1,6 @@
 /* large desktop */
-@media (min-width: 1368px) {
-}
+/* @media (min-width: 1368px) {
+} */
 /* Tab view */
 @media (max-width: 991px) {
   h3,
@@ -8,12 +8,6 @@
   h5,
   h6 {
     font-size: 1.2rem;
-  }
-  .button {
-    padding-left: 0px;
-  }
-  .button a {
-    font-size: 1rem;
   }
   .logo {
     width: 200px;
@@ -23,8 +17,11 @@
     align-items: start;
     padding: 20px;
   }
-  .fixed-top-margin {
-    margin-top: 97px;
+  .fiexed-top-margin {
+    margin-top: 0px;
+  }
+  .banner {
+    display: none;
   }
   .navbar {
     padding-right: 90px;
@@ -57,23 +54,8 @@
   .resNav {
     display: none;
   }
-  .banner-text h2 {
-    font-size: 2.5rem;
-  }
   .section-title h2 {
     font-size: 1.7rem;
-  }
-  /* banner */
-  .banner-text {
-    margin: 0 20px;
-    text-align: start;
-  }
-  .banner-text p {
-    font-size: 1rem;
-  }
-  .banner-time {
-    padding-left: 0px;
-    text-align: center;
   }
   .main-menu-card-img {
     display: none;
@@ -82,9 +64,8 @@
   .about-info {
     flex-direction: column;
   }
-
   .about-video {
-    width: 400px;
+    width: 88%;
     margin: 0 auto;
   }
   .about-text {
@@ -117,10 +98,59 @@
     margin: 0 2rem;
     flex-wrap: wrap;
   }
+  /* mobile view welcome text */
+  .mobile-welcome-text {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 109px;
+    text-align: center;
+  }
+  /* swiper.css */
+  .mySwiper {
+    height: 400px;
+    margin-top: 0;
+  }
+  .swiper-slide {
+    width: 200px !important;
+    height: 250px;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-slide img {
+    width: 200px !important;
+    height: 250px;
+  }
+  .mySlider-info {
+    display: none;
+  }
+  .button {
+    padding-left: 0px;
+  }
+  .button a {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
 }
-/* @media (max-width: 768px) {
-} */
-
 /* Moblie view */
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
+  .mobile-welcome-text h2 {
+    font-size: 28px;
+  }
+  .swiper-slide {
+    width: 260px !important;
+    height: 250px;
+  }
+  .swiper-slide img {
+    width: 260px !important;
+    height: 250px;
+  }
+}
+/* @media (max-width: 361px) {
+} */
+/* @media (max-width: 768px) {
 } */
