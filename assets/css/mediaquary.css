@@ -105,6 +105,11 @@
     margin: 0 auto;
     margin-top: 109px;
     text-align: center;
+    color: #0f3f64;
+  }
+  .mobile-welcome-text p {
+    color: #302e2e;
+    font-weight: 600;
   }
   /* swiper.css */
   .mySwiper {
@@ -128,12 +133,29 @@
   .mySlider-info {
     display: none;
   }
-  .button {
-    padding-left: 0px;
+  /* booking button */
+  .bookingButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
-  .button a {
-    font-size: 1rem;
-    margin-top: 20px;
+  .bookingButton a {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #32e2f7;
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid #0f3f64;
+    border-radius: 7px;
+    width: 40%;
+    text-align: center;
+    font-weight: 600;
+    color: #0f3f54;
+  }
+  .bookingButton a:hover {
+    background-color: #d0f3f7;
+    color: #0f3f54;
   }
 }
 /* Moblie view */
@@ -148,6 +170,9 @@
   .swiper-slide img {
     width: 260px !important;
     height: 250px;
+  }
+  .bookingButton a {
+    width: 60%;
   }
 }
 /* @media (max-width: 361px) {

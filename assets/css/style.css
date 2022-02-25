@@ -58,6 +58,9 @@ h6 {
   border: 1px solid #ffffff;
   transition: 0.5s ease;
 }
+.bookingButton {
+  display: none;
+}
 /* card */
 .card {
   width: 100%;
