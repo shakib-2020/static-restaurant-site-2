@@ -182,6 +182,10 @@
   .contact-info {
     width: 80%;
   }
+  .gMap embed {
+    width: 100%;
+    height: 240px;
+  }
 }
 /* @media (max-width: 361px) {
 } */

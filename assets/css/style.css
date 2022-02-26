@@ -293,8 +293,8 @@ h6 {
   font-weight: bold;
   justify-content: center;
 }
-.map {
-  border: 1px solid #32e2f7;
+.gMap embed {
+  border: 1px solid #12bed2;
 }
 .contact-info {
   margin-left: 25px;
