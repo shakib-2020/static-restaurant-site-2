@@ -1,584 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital,wght@1,500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- boostrap icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-    />
-    <!-- animate.css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <!-- main css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/mediaquary.css" />
-    <title>Seaview Indian Masala</title>
-  </head>
-  <body>
-    <div class="header">
-      <section class="resButton" onclick="hideNev()">
-        <i class="bi bi-list"></i>
-      </section>
-      <img class="logo" src="assets/images/logo.png" alt="logo" />
-      <!-- navbar -->
-      <div class="navbar resNav" id="navbarToggler">
-        <a class="nav-link" href="#homePage" onclick="hideNev()">Home</a>
-        <a class="nav-link" href="#featuresPage" onclick="hideNev()"
-          >features</a
-        >
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- fevicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital,wght@1,500&display=swap"
+    rel="stylesheet" />
+  <!-- boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/mediaquary.css" />
+  <title>Seaview Indian Masala</title>
+</head>
 
-        <a class="nav-link" href="#mainMenu" onclick="hideNev()">Menu</a>
+<body>
+  <div class="header">
+    <section class="resButton" onclick="hideNev()">
+      <i class="bi bi-list"></i>
+    </section>
+    <img class="logo" src="assets/images/logo.png" alt="logo" />
+    <!-- navbar -->
+    <div class="navbar resNav" id="navbarToggler">
+      <a class="nav-link" href="#homePage" onclick="hideNev()">Home</a>
+      <a class="nav-link" href="#featuresPage" onclick="hideNev()">features</a>
 
-        <a class="nav-link" href="#openingHoursPage" onclick="hideNev()"
-          >Opening Hours</a
-        >
+      <a class="nav-link" href="#mainMenu" onclick="hideNev()">Menu</a>
 
-        <a class="nav-link" href="#aboutPage" onclick="hideNev()">About</a>
+      <a class="nav-link" href="#openingHoursPage" onclick="hideNev()">Opening Hours</a>
 
-        <a class="nav-link" href="#contactPage" onclick="hideNev()"
-          >Contact Us</a
-        >
+      <a class="nav-link" href="#aboutPage" onclick="hideNev()">About</a>
+
+      <a class="nav-link" href="#contactPage" onclick="hideNev()">Contact Us</a>
+    </div>
+  </div>
+  <!-- mobile view welcome text -->
+  <div class="mobile-welcome-text">
+    <h2 class="animate__animated animate__flipInX">
+      Welcome to Seaview Indian Masala Authentic Goodness.
+    </h2>
+    <p>Discover our tasty menu Food tailored to meet your expectation.</p>
+  </div>
+  <!--  slider -->
+  <!-- Swiper -->
+  <div class="swiper mySwiper fiexed-top-margin" id="homePage">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_1-min.jpeg" alt="" />
+        <div class="mySlider-info">
+          <!-- only for web view -->
+          <section>
+            <h2 class="animate__animated animate__flipInX">
+              Welcome to Seaview Indian Masala Authentic Goodness.
+            </h2>
+            <p>
+              Discover our tasty menu Food tailored to meet your expectation.
+            </p>
+          </section>
+          <section class="button">
+            <a href="https://forms.gle/NQZMvNLNagoagq8Z9">Book your Table</a>
+            <a href="#mainMenu">Order Now</a>
+          </section>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_2-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_3-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_4-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_5-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_6-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_7-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_8-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_9-min.jpeg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/images/slider_image/slider_image_10-min.png" alt="" />
       </div>
     </div>
-    <!-- mobile view welcome text -->
-    <div class="mobile-welcome-text">
-      <h2 class="animate__animated animate__flipInX">
-        Welcome to Seaview Indian Masala Authentic Goodness.
-      </h2>
-      <p>Discover our tasty menu Food tailored to meet your expectation.</p>
-    </div>
-    <!--  slider -->
-    <!-- Swiper -->
-    <div class="swiper mySwiper fiexed-top-margin" id="homePage">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_1-min.jpeg"
-            alt=""
-          />
-          <div class="mySlider-info">
-            <!-- only for web view -->
-            <section>
-              <h2 class="animate__animated animate__flipInX">
-                Welcome to Seaview Indian Masala Authentic Goodness.
-              </h2>
-              <p>
-                Discover our tasty menu Food tailored to meet your expectation.
-              </p>
-            </section>
-            <section class="button">
-              <a href="https://forms.gle/NQZMvNLNagoagq8Z9">Book your Table</a>
-              <a href="#mainMenu">Order Now</a>
-            </section>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_2-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_3-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_4-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_5-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_6-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_7-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_8-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_9-min.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="./assets/images/slider_image/slider_image_10-min.png"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-      <div class="emply-space">
-        <div id="featuresPage"></div>
-      </div>
-    </div>
-    <!-- mobile slider end -->
-    <div class="bookingButton">
-      <a href="https://forms.gle/NQZMvNLNagoagq8Z9">Book Your Table</a>
-      <a href="#mainMenu">Order Now</a>
-    </div>
-    <!-- section title -->
-    <div class="section-title">
-      <h2>Our Features Items 🍽</h2>
-    </div>
-    <!-- Features Items -->
-    <div class="card">
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">26.Seaview Special</h5>
-          <p class="card-description">
-            Gold award winning dish in British curry awards competition
-            succulent pieces of tandoori baked chicken cooked in delicate sauce
-            with cream, ground, pistachio, coconut,butter & aromatic spices.
-            mild.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>10.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">33. Hariyali lamb</h5>
-          <p class="card-description">
-            Lamb curry loaded with fresh herbs like coriander leaves and some
-            mint leaves, yoghurt, mango chutney cooked along with lamb pieces to
-            develop nice flavourful and aromatic medium spice
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">38. King Prawn Jhinga</h5>
-          <p class="card-description">
-            King prawn is cooked with shells fresh garlic & green chilly chopped
-            onions fresh tomatoes with fairly hot.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>11.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">34. Sylheti Chicken</h5>
-          <p class="card-description">
-            Chicken cooked in the tandoori then pan fried with roasted garlic,
-            ginger, Sylheti spices and shatkora a citrus cooking vegetable from
-            the Sylhet region of Bangladesh. a medium spiced dish. spice.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">23.Ginger Chicken</h5>
-          <p class="card-description">
-            Chicken cooked with chop onions green pepper and fresh ginger medium
-            spice.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">27.Sharia Chicken</h5>
-          <p class="card-description">
-            This dish is low in calories An exquisite dish. chicken braised in a
-            spicy masala. garlic, ginger, onions, tomatoes, and capsicums with a
-            little coating of Coriander Seeds. medium spice.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-      <!-- single card  start-->
-      <div class="card-item">
-        <div class="card-top">
-          <img
-            class="card-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">30. Chicken Jaflong</h5>
-          <p class="card-description">
-            Gently cooked with chopped onions green pepper, fresh tomatoes
-            medium spiced & bacardi flavourful.
-          </p>
-        </div>
-        <div class="card-bottom">
-          <section class="price-section">
-            <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
-          </section>
-
-          <a class="card-button" href="tel:028 43758423">Order Now</a>
-        </div>
-      </div>
-      <!-- single card  end-->
-    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
     <div class="emply-space">
-      <div id="mainMenu"></div>
+      <div id="featuresPage"></div>
     </div>
-    <!-- section title -->
-    <div class="section-title">
-      <h2>Menu Items 🍽</h2>
-    </div>
-    <!-- main menu -->
-    <div class="main-menu card">
-      <!-- single card  start-->
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/appetizers.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(a) Appetizers</h5>
-        </a>
-      </section>
-      <!-- single card  end-->
-      <!-- images are hiddin using disply : none -->
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/tandoori specialtie.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(b)Tandoori Specialties</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Chef Specialties Dishes.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(c)Chef Specialties</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/traditional main Course.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(d)Traditional Main Course</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/biryanis.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(e)Biryanis</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Vegetarian side Dishes.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(f)Vegetarian side Dishes</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Sundry Dishes.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(g)Sundry Dishes</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/European Dishes.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(h) European Dishes</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Doner Kebabs.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(i)Doner Kebabs</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Pizza Menu.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(j) Pizza Menu</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Soft Drinks.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(k)Soft Drinks</h5>
-        </a>
-      </section>
-      <section class="card-item">
-        <a class="card-link" href="./item-pages/Set meal.html">
-          <img
-            class="card-image main-menu-card-img hide-image"
-            src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
-            alt=""
-          />
-          <h5 class="card-title">(l)Set Meal</h5>
-        </a>
-      </section>
-    </div>
-    <div class="emply-space">
-      <div id="openingHoursPage"></div>
-    </div>
-    <!-- section title -->
-    <div class="section-title">
-      <h2>0pening Hours :</h2>
-    </div>
-    <!-- hoursPage -->
-    <div class="openingHours">
-      <section>
-        <h3>Monday-Thursday : 4PM - 10:30PM</h3>
-        <h3>Friday and Saturday : 4PM - 11PM</h3>
-        <h3>Sunday : 2:30PM - 10PM</h3>
-      </section>
-    </div>
-    <div class="emply-space">
-      <div id="aboutPage"></div>
-    </div>
-    <!-- section title -->
-    <div class="section-title">
-      <h2>Explore Seaview Indian Masala</h2>
-    </div>
-    <!-- About -->
-    <div class="about">
-      <section class="about-info">
-        <video class="about-video" controls>
-          <source
-            src="./assets/images/about/inner-restru.mp4"
-            type="video/mp4"
-          />
-          Video by Seaview Indian Masala.
-        </video>
-        <p class="about-text">
-          Seaview Indian Masala has a stated policy on the following. <br />
-          No use of additives preservatives, off-the shelf concoctions in our
-          kitchen. Indian food needs no artificial colorings. Even though some
-          establishments use them. However, carcinogenic food colors are
-          strictly forbidden in our kitchen to exceed or surpass the UK health &
-          hygiene requirements in our Organization Groceries sourced from ISO
-          9002 quality system approved exporters as far as possible Meats &
-          Vegetables sourced from HACCP complaint supplies only for full
-          traceability of low cholesterol polyunsaturated oils to encourage
-          “healthy heart”. We care so that you can eat with confidence. <br />
-          All our authentic Bangladeshi food dishes are freshly home made by our
-          extremely skilled chefs. We provide free online ordering services
-          through our selected website.
+  </div>
+  <!-- mobile slider end -->
+  <div class="bookingButton">
+    <a href="https://forms.gle/NQZMvNLNagoagq8Z9">Book Your Table</a>
+    <a href="#mainMenu">Order Now</a>
+  </div>
+  <!-- section title -->
+  <div class="section-title">
+    <h2>Our Features Items 🍽</h2>
+  </div>
+  <!-- Features Items -->
+  <div class="card">
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">26.Seaview Special</h5>
+        <p class="card-description">
+          Gold award winning dish in British curry awards competition
+          succulent pieces of tandoori baked chicken cooked in delicate sauce
+          with cream, ground, pistachio, coconut,butter & aromatic spices.
+          mild.
         </p>
-      </section>
-      <section class="about-images">
-        <img
-          src="./assets/images/about/front-image-min.jpeg"
-          alt="front image"
-        />
-        <img
-          src="./assets/images/about/hygiene-rating -min.jpeg"
-          alt="hygiene-rating"
-        />
-      </section>
-    </div>
-    <div class="emply-space">
-      <div id="contactPage"></div>
-    </div>
-    <!-- section title -->
-    <div class="section-title">
-      <h2>Contact Us</h2>
-    </div>
-    <!-- contact -->
-    <div class="contact">
-      <div class="gMap">
-        <embed
-          class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2339.5663685795917!2d-6.250366684133036!3d54.0991632801437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860db17e1131759%3A0xf76c79a6a9131b6b!2sSeaview%20Indian%20Masala!5e0!3m2!1sen!2sbd!4v1645869288246!5m2!1sen!2sbd"
-          width="400"
-          height="300"
-          allowfullscreen=""
-          loading="lazy"
-        ></embed>
       </div>
-      <section class="contact-info">
-        <a class="phone" href="tel:028 43758423"
-          ><i class="bi bi-telephone-fill"></i> 028 43758423</a
-        >
-        <a class="location" href="https://goo.gl/maps/9gxHYYUatVokBa9X7">
-          <i class="bi bi-geo-alt-fill"></i> 13 Seaview, Warrenpoint, Newry
-          Seaview Indian Masala, Seaview, Warrenpoint, Newry BT34 3NJ, United
-          Kingdom
-        </a>
-        <a class="gmail" href="mailto:seaviewindianmasala@gmail.com">
-          <i class="bi bi-envelope-fill"></i> seaviewindianmasala@gmail.com</a
-        >
-      </section>
-    </div>
-    <div class="footer">
-      <p class="footer-text">&copy copyright by seaviewindianmasala.com</p>
-    </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>10.50</p>
+        </section>
 
-    <script src="./assets/js/all.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: "auto",
-        spaceBetween: 35,
-        centeredSlides: true,
-        grabCursor: true,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </body>
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">33. Hariyali lamb</h5>
+        <p class="card-description">
+          Lamb curry loaded with fresh herbs like coriander leaves and some
+          mint leaves, yoghurt, mango chutney cooked along with lamb pieces to
+          develop nice flavourful and aromatic medium spice
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">38. King Prawn Jhinga</h5>
+        <p class="card-description">
+          King prawn is cooked with shells fresh garlic & green chilly chopped
+          onions fresh tomatoes with fairly hot.
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>11.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">34. Sylheti Chicken</h5>
+        <p class="card-description">
+          Chicken cooked in the tandoori then pan fried with roasted garlic,
+          ginger, Sylheti spices and shatkora a citrus cooking vegetable from
+          the Sylhet region of Bangladesh. a medium spiced dish. spice.
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">23.Ginger Chicken</h5>
+        <p class="card-description">
+          Chicken cooked with chop onions green pepper and fresh ginger medium
+          spice.
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">27.Sharia Chicken</h5>
+        <p class="card-description">
+          This dish is low in calories An exquisite dish. chicken braised in a
+          spicy masala. garlic, ginger, onions, tomatoes, and capsicums with a
+          little coating of Coriander Seeds. medium spice.
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+    <!-- single card  start-->
+    <div class="card-item">
+      <div class="card-top">
+        <img class="card-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">30. Chicken Jaflong</h5>
+        <p class="card-description">
+          Gently cooked with chopped onions green pepper, fresh tomatoes
+          medium spiced & bacardi flavourful.
+        </p>
+      </div>
+      <div class="card-bottom">
+        <section class="price-section">
+          <p class="card-price"><i class="bi bi-currency-pound"></i>9.50</p>
+        </section>
+
+        <a class="card-button" href="tel:028 43758423">Order Now</a>
+      </div>
+    </div>
+    <!-- single card  end-->
+  </div>
+  <div class="emply-space">
+    <div id="mainMenu"></div>
+  </div>
+  <!-- section title -->
+  <div class="section-title">
+    <h2>Menu Items 🍽</h2>
+  </div>
+  <!-- main menu -->
+  <div class="main-menu card">
+    <!-- single card  start-->
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/appetizers.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(a) Appetizers</h5>
+      </a>
+    </section>
+    <!-- single card  end-->
+    <!-- images are hiddin using disply : none -->
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/tandoori specialtie.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(b)Tandoori Specialties</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Chef Specialties Dishes.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(c)Chef Specialties</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/traditional main Course.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(d)Traditional Main Course</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/biryanis.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(e)Biryanis</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Vegetarian side Dishes.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(f)Vegetarian side Dishes</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Sundry Dishes.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(g)Sundry Dishes</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/European Dishes.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(h) European Dishes</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Doner Kebabs.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(i)Doner Kebabs</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Pizza Menu.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(j) Pizza Menu</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Soft Drinks.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(k)Soft Drinks</h5>
+      </a>
+    </section>
+    <section class="card-item">
+      <a class="card-link" href="./item-pages/Set meal.html">
+        <img class="card-image main-menu-card-img hide-image"
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Corn-Fritters-or-Indian-Pakora-800x530.png"
+          alt="" />
+        <h5 class="card-title">(l)Set Meal</h5>
+      </a>
+    </section>
+  </div>
+  <div class="emply-space">
+    <div id="openingHoursPage"></div>
+  </div>
+  <!-- section title -->
+  <div class="section-title">
+    <h2>0pening Hours :</h2>
+  </div>
+  <!-- hoursPage -->
+  <div class="openingHours">
+    <section>
+      <h3>Monday-Thursday : 4PM - 10:30PM</h3>
+      <h3>Friday and Saturday : 4PM - 11PM</h3>
+      <h3>Sunday : 2:30PM - 10PM</h3>
+    </section>
+  </div>
+  <div class="emply-space">
+    <div id="aboutPage"></div>
+  </div>
+  <!-- section title -->
+  <div class="section-title">
+    <h2>Explore Seaview Indian Masala</h2>
+  </div>
+  <!-- About -->
+  <div class="about">
+    <section class="about-info">
+      <video class="about-video" controls>
+        <source src="./assets/images/about/inner-restru.mp4" type="video/mp4" />
+        Video by Seaview Indian Masala.
+      </video>
+      <p class="about-text">
+        Seaview Indian Masala has a stated policy on the following. <br />
+        No use of additives preservatives, off-the shelf concoctions in our
+        kitchen. Indian food needs no artificial colorings. Even though some
+        establishments use them. However, carcinogenic food colors are
+        strictly forbidden in our kitchen to exceed or surpass the UK health &
+        hygiene requirements in our Organization Groceries sourced from ISO
+        9002 quality system approved exporters as far as possible Meats &
+        Vegetables sourced from HACCP complaint supplies only for full
+        traceability of low cholesterol polyunsaturated oils to encourage
+        “healthy heart”. We care so that you can eat with confidence. <br />
+        All our authentic Bangladeshi food dishes are freshly home made by our
+        extremely skilled chefs. We provide free online ordering services
+        through our selected website.
+      </p>
+    </section>
+    <section class="about-images">
+      <img src="./assets/images/about/front-image-min.jpeg" alt="front image" />
+      <img src="./assets/images/about/hygiene-rating -min.jpeg" alt="hygiene-rating" />
+    </section>
+  </div>
+  <div class="emply-space">
+    <div id="contactPage"></div>
+  </div>
+  <!-- section title -->
+  <div class="section-title">
+    <h2>Contact Us</h2>
+  </div>
+  <!-- contact -->
+  <div class="contact">
+    <div class="gMap">
+      <embed class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2339.5663685795917!2d-6.250366684133036!3d54.0991632801437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860db17e1131759%3A0xf76c79a6a9131b6b!2sSeaview%20Indian%20Masala!5e0!3m2!1sen!2sbd!4v1645869288246!5m2!1sen!2sbd"
+        width="400" height="300" allowfullscreen="" loading="lazy"></embed>
+    </div>
+    <section class="contact-info">
+      <a class="phone" href="tel:028 43758423"><i class="bi bi-telephone-fill"></i> 028 43758423</a>
+      <a class="location" href="https://goo.gl/maps/9gxHYYUatVokBa9X7">
+        <i class="bi bi-geo-alt-fill"></i> 13 Seaview, Warrenpoint, Newry
+        Seaview Indian Masala, Seaview, Warrenpoint, Newry BT34 3NJ, United
+        Kingdom
+      </a>
+      <a class="gmail" href="mailto:seaviewindianmasala@gmail.com">
+        <i class="bi bi-envelope-fill"></i> seaviewindianmasala@gmail.com</a>
+    </section>
+  </div>
+  <div class="footer">
+    <p class="footer-text">&copy copyright by seaviewindianmasala.com</p>
+  </div>
+
+  <script src="./assets/js/all.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 35,
+      centeredSlides: true,
+      grabCursor: true,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
 </html>
