@@ -61,6 +61,49 @@ h6 {
 .bookingButton {
   display: none;
 }
+/* mobile view welcome text */
+.mobile-welcome-text {
+  display: none;
+}
+/* swiper.css */
+.mySwiper {
+  height: 485px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  width: 580px !important;
+  height: 375px;
+  border-radius: 7px;
+}
+.swiper-slide img {
+  width: 90% !important;
+  height: 360px;
+  border-radius: 7px;
+  margin: 0 auto;
+  display: block;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide-active {
+  transform: scale(1.2) !important;
+  transition: 0.4s;
+}
+.mySlider-info {
+  width: 85%;
+  padding: 24px 0px;
+  position: absolute;
+  bottom: 95px;
+  left: 44px;
+  text-align: center;
+  color: white;
+  background: #0909099c;
+}
+.mySlider-info p {
+  padding: 10px;
+}
 /* card */
 .card {
   width: 100%;
@@ -250,9 +293,8 @@ h6 {
   font-weight: bold;
   justify-content: center;
 }
-.contact-image {
-  width: 30%;
-  border-radius: 50px;
+.map {
+  border: 1px solid #32e2f7;
 }
 .contact-info {
   margin-left: 25px;
@@ -260,6 +302,14 @@ h6 {
   flex-direction: column;
   justify-content: center;
   letter-spacing: 1.5px;
+  width: 30%;
+}
+.contact-info a {
+  text-decoration: none;
+  color: #0f3f54;
+}
+.contact-info a:hover {
+  color: #090909;
 }
 /* footer */
 .footer {
@@ -286,47 +336,4 @@ h6 {
 .single-item-list-min {
   padding: 15px;
   font-weight: 600;
-}
-/* mobile view welcome text */
-.mobile-welcome-text {
-  display: none;
-}
-/* swiper.css */
-.mySwiper {
-  height: 485px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.swiper-slide {
-  width: 580px !important;
-  height: 375px;
-  border-radius: 7px;
-}
-.swiper-slide img {
-  width: 90% !important;
-  height: 360px;
-  border-radius: 7px;
-  margin: 0 auto;
-  display: block;
-}
-.swiper-wrapper {
-  align-items: center;
-}
-
-.swiper-slide-active {
-  transform: scale(1.2) !important;
-  transition: 0.4s;
-}
-.mySlider-info {
-  width: 85%;
-  padding: 24px 0px;
-  position: absolute;
-  bottom: 95px;
-  left: 44px;
-  text-align: center;
-  color: white;
-  background: #0909099c;
-}
-.mySlider-info p {
-  padding: 10px;
 }
