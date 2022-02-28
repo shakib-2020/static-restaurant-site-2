@@ -84,12 +84,15 @@ h6 {
   display: block;
 }
 .swiper-wrapper {
+  display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .swiper-slide-active {
   transform: scale(1.2) !important;
   transition: 0.4s;
+  z-index: 9999;
 }
 .mySlider-info {
   width: 85%;
