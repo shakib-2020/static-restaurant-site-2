@@ -186,6 +186,9 @@
     width: 100%;
     height: 240px;
   }
+  .resButton {
+    right: 40px;
+  }
 }
 /* @media (max-width: 361px) {
 } */
